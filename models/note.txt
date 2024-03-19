@@ -1,0 +1,6 @@
+- load and save blockchain (json file)
+- solde
+- verifier transaction
+- verifier le bloc
+- ajouter un bloc
+- verifier blockchain

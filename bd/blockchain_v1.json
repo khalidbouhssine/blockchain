@@ -1,0 +1,52 @@
+{
+    "blockchain":{
+        "name":"eDH blockchain",
+        "blockReward":50,
+        "difficuly":8,
+        "cyrptoFunction":"SHA-256",
+        "proofStyle":"Proof Of Work",
+        "blocs":[
+            {
+                "peviousHash":null,
+                "nonce":12304,
+                "height":0,
+                "hash":"0x3242342342336363526353636346346",
+                "transactionReward":{
+                    "sender":"0x34f634645377",
+                    "amount":50,
+                    "signature":"0x2345367458659769t89807098697789867986"
+                },
+                "transactions":[
+                ]
+            },
+            {
+                "peviousHash":"0x3242342342336363526353636346346",
+                "nonce":345346,
+                "height":1,
+                "hash":"0x454745462700046",
+                "transactionReward":{
+                    "sender":"0x34f634645377",
+                    "amount":50,
+                    "signature":"0x867856456456356456e7456436"
+                },
+                "transactions":[
+                    {
+                        "sender":"0x34f634645377",
+                        "receipient":"0xfe2353465436346fe234ab",
+                        "amount":9.5,
+                        "fees":0.1,
+                        "signature":"0x345346256474658568769979"
+                    }
+                    ,
+                    {
+                        "sender":"0x34f634645377",
+                        "receipient":"0xf4444445555555b",
+                        "amount":12,
+                        "fees":0.2,
+                        "signature":"0x345457456856867967969"
+                    }
+                ]
+            }
+        ]
+    }
+}
